@@ -1,14 +1,3 @@
-/* Arduino Smart Working Helmet - License: Attribution Non-commercial Share Alike (by-nc-sa)
-   Smart Helmet can read temperature, dangerous gas or smoke and room/area brightness.
-   In the top of this code you can adjust values of maxTemp, dGas and bValue.
-   How it works:
-   * if dangerous gas (or smoke) detected, make a sound and blink red led
-   * if high temp detected, make a sound (different from 1st case) and blink red led
-   * if room/area brightness is too low, open helmet light
-   Dev: Marianna Miliori & Antonis Damigos // Date: 6/6/2015 
-   More info can be found here: www.ardumotive.com                                           */                   
-   
-//Include libraries
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
